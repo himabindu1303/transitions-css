@@ -1,0 +1,87 @@
+.div1{
+    background-color: lightgreen;
+    padding: 10px;
+    position: sticky;
+    top: 0;           
+}
+h1{
+    color: green;
+    text-align: center;
+}
+.div2{
+    background-color: lightcoral;
+    height: 35rem;
+}
+.div21,.div22,.div23,.div24{
+    border: 3px solid gray;
+    display: inline-block;
+}
+.div21{
+    width: 40rem;
+    height: 350px;
+    position: relative;
+    top: 20px;
+    left: 100px ;
+    transition: all ease 1s 4s;
+}
+.div21:hover{
+    background-color: lightskyblue;
+    transform: rotate(10deg);
+}
+
+.div21:hover .img1{
+    background-color: lightskyblue;
+    border-radius: 50%;
+    translate: 100px ;
+}
+
+.p1,.img1{
+    transform: translate(30px,40px);
+    transition: all ease 1s 4s;
+}
+
+.div22{
+    width: 20rem;
+    height: 280px;
+    position: relative;
+    top: 70px;
+    left: 300px;
+    transition: all ease 1s 4s;
+}
+.div22:hover{
+    background-color: lightskyblue;
+    transform: scale(1.5,1.5);
+}
+.p2,.img2{
+    transform: translateX(20px);
+}
+
+.div23{
+    width: 40rem;
+    height: 60px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+.div23:hover{
+    transform: skewX(20deg);
+    opacity: 0.5;
+}
+
+.div24{
+    width: 40rem;
+    height: 60px;
+    position: relative;
+    left: 130px;
+    top: 60px;
+}
+.div24:hover{
+    color: red;
+    transform: translate(30px,20px);
+}
+
+.div3{
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
