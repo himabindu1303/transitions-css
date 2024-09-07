@@ -16,10 +16,8 @@ h1{
 }
 .div21{
     width: 40rem;
-    height: 350px;
-    position: relative;
-    top: 10px;
-    left: 100px ;
+    height: 300px;
+    margin-left: 50px;
     transition: all ease 1s 4s;
 }
 .div21:hover{
