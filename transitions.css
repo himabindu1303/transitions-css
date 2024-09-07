@@ -1,4 +1,4 @@
-.div1{
+.header1{
     background-color: lightgreen;
     padding: 2px;           
 }
@@ -6,26 +6,26 @@ h1{
     color: green;
     text-align: center;
 }
-.div2{
+.main1{
     background-color: lightcoral;
     height: 35rem;
 }
-.div21,.div22,.div23,.div24{
+.A,.B,.C,.D{
     border: 3px solid gray;
     display: inline-block;
 }
-.div21{
+.A{
     width: 40rem;
     height: 300px;
     margin-left: 50px;
     transition: all ease 1s 4s;
 }
-.div21:hover{
+.A:hover{
     background-color: lightskyblue;
     transform: rotate(10deg);
 }
 
-.div21:hover .img1{
+.A:hover .img1{
     background-color: lightskyblue;
     border-radius: 50%;
     translate: 100px ;
@@ -36,7 +36,7 @@ h1{
     transition: all ease 1s 4s;
 }
 
-.div22{
+.B{
     width: 20rem;
     height: 280px;
     position: relative;
@@ -44,7 +44,7 @@ h1{
     left: 300px;
     transition: all ease 1s 4s;
 }
-.div22:hover{
+.B:hover{
     background-color: lightskyblue;
     transform: scale(1.5,1.5);
 }
@@ -52,31 +52,31 @@ h1{
     transform: translateX(20px);
 }
 
-.div23{
+.C{
     width: 40rem;
     height: 60px;
     position: relative;
     top: 70px;
     left: 50px;
 }
-.div23:hover{
+.C:hover{
     transform: skewX(20deg);
     opacity: 0.5;
 }
 
-.div24{
+.D{
     width: 40rem;
     height: 60px;
     position: relative;
     left: 130px;
     top: 60px;
 }
-.div24:hover{
+.D:hover{
     color: red;
     transform: translate(30px,20px);
 }
 
-.div3{
+.footer1{
     background-color: lightgreen;
     padding: 10px;
     text-align: center;
